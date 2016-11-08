@@ -1,0 +1,85 @@
+table.arrive {
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    border-spacing: 10px;
+}
+table.depart {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    border-spacing: 10px;
+}
+table.check {
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+    border-spacing: 10px;
+}
+
+
+
+table.main {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+td a {
+    display: inline-block;
+    padding: 40px 100px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0px 8px 8px 0px;
+    border-color: #595F5D;
+    color: black;
+}
+
+td a.recomend {
+    background-color: deepskyblue;
+}
+
+td a.notrecomend {
+    background-color: orange;
+}
+
+td a.empty {
+    background-color: white;
+}
+
+td a.engaged {
+    background-color: red;
+}
+
+td span {
+    display: inline-block;
+    padding: 40px 100px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 0px 8px 8px 0px;
+    border-color: #595F5D;
+    color: black;
+}
+
+td span.recomend {
+    background-color: deepskyblue;
+}
+
+td span.notrecomend {
+    background-color: orange;
+}
+
+td span.empty {
+    background-color: white;
+}
+
+td span.engaged {
+    background-color: red;
+}
+
+table.example {
+    position: relative;
+    top: 200px;
+    left:100px;
+    border-spacing: 10px;
+}

@@ -1,0 +1,78 @@
+div.main {
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+div.closed {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	background-image: url(../img/close.png);
+	height: 266px;
+	width: 133px;
+	margin-left: 40px;
+}
+div.closed_c {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	background-image: url(../img/close.png);
+	height: 266px;
+	width: 133px;
+	margin-left: 40px;
+}
+div.selected {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	background-image: url(../img/selected.png);
+	height: 266px;
+	width: 133px;
+	margin-left: 40px;
+}
+div.opened_lose {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	background-image: url(../img/opened_lose.png);
+	height: 266px;
+	width: 133px;
+	margin-left: 40px;
+}
+div.opened_win {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	background-image: url(../img/opened_win.png);
+	height: 266px;
+	width: 133px;
+	margin-left: 40px;
+}
+
+div.buttons {
+	position: relative;
+	top: 170px;
+	left: 310px;
+}
+button.one {
+	position: absolute;
+	top: 10px;
+}
+button.two {
+	position: absolute;
+	top: 60px;
+}
+button.three {
+	position: absolute;
+	top: 110px;
+}
+button#hidden {
+visibility: hidden;
+}
+
