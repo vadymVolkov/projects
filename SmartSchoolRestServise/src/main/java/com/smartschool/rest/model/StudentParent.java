@@ -7,10 +7,10 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "parents")
-public class Parent {
+public class StudentParent {
     @Id
     @GeneratedValue
-    private int student_id;
+    private int parent_id;
 
     private String parent_mobnum;
 
@@ -18,12 +18,12 @@ public class Parent {
 
     private String parent_lname;
 
-    public int getStudent_id() {
-        return student_id;
+    public int getParent_id() {
+        return parent_id;
     }
 
-    public void setStudent_id(int student_id) {
-        this.student_id = student_id;
+    public void setParent_id(int parent_id) {
+        this.parent_id = parent_id;
     }
 
     public String getParent_mobnum() {

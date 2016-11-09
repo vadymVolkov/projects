@@ -21,4 +21,5 @@ public class StudentService {
     public List<Student> getStudentsByClassId(int id) {
         return studentRepository.getStudentsByClassId(id);
     }
+
 }
