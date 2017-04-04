@@ -1,1 +1,1 @@
-# Here you can find my latest Projects
+# Here you can find my training Projects on Java
